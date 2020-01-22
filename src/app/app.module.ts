@@ -12,6 +12,8 @@ import { Prt005Component } from './prt.005.component/prt.005.component';
 import { Prt006Component } from './prt.006.component/prt.006.component';
 import { Prt007Component } from './prt.007.component/prt.007.component';
 import { Prt008Component } from './prt.008.component/prt.008.component';
+import { Prt009Component } from './prt.009.component/prt.009.component';
+import { Prt010Component } from './prt.010.component/prt.010.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { Prt008Component } from './prt.008.component/prt.008.component';
     Prt005Component,
     Prt006Component,
     Prt007Component,
-    Prt008Component
+    Prt008Component,
+    Prt009Component,
+    Prt010Component
   ],
   imports: [
     BrowserModule,
