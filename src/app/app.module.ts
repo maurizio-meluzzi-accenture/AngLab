@@ -21,8 +21,10 @@ import { Prt011Component } from './prt.011.component/prt.011.component';
 import { Prt012HomeComponent } from './prt.012.component/home/home.component';
 import { Prt012DetailComponent } from './prt.012.component/detail/detail.component';
 import { Prt012ListComponent } from './prt.012.component/list/list.component';
+import { Prt013Component } from './prt.013.component/prt.013.component';
 
 import { ProductBeMockupService } from './product-be-mockup.service';
+
 
 @NgModule({
   declarations: [
@@ -38,10 +40,10 @@ import { ProductBeMockupService } from './product-be-mockup.service';
     Prt009Component,
     Prt010Component,
     Prt011Component,
-    // Prt012IndexComponent,
     Prt012HomeComponent,
     Prt012DetailComponent,
-    Prt012ListComponent
+    Prt012ListComponent,
+    Prt013Component
   ],
   imports: [
     BrowserModule,

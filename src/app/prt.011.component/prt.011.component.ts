@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductClientService } from '../product-client.service';
+import { Product } from '../prt.010.component/product.model';
 
 @Component({
     selector: 'app-prt-011',
@@ -8,6 +9,7 @@ import { ProductClientService } from '../product-client.service';
 export class Prt011Component implements OnInit
 {
     products: any[] = [];
+    // products: Product[] = [];
 
     constructor(private productSrvc: ProductClientService) { }
 
